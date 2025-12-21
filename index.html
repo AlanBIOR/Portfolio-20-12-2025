@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alan Alfonso Rodríguez Ibarra | Portafolio</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="./src/sass/style.scss">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+        <figure class="avatar-box" style="border-radius: 50%;">
+          <img src="./src/img/yo-avatar.png" alt="Alan Alfonso Rodríguez Ibarra" width="80" style="border-radius: 50%;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Alan Alfonso Rodríguez Ibarra">Alan Rodríguez</h1>
+          <p class="title">Ingeniero Electrónico & Full Stack Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Mostrar contactos</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:alanalfonso261002@gmail.com" class="contact-link">alanalfonso261002@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Teléfono</p>
+              <a href="tel:+522412408768" class="contact-link">+52 241 240 8768</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="calendar-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Cumpleaños</p>
+              <time datetime="2002-10-26">26 de octubre, 2002</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Ubicación</p>
+              <address>Apizaco, Tlaxcala, México</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/AlanBIOR" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/alan-alfonso-rodr%C3%ADguez-ibarra-294211203/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/a.bior26" class="social-link" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>Sobre mí</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Currículum</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Portafolio</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contacto</button></li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="sobre mí">
+        <header><h2 class="h2 article-title">Sobre mí</h2></header>
+
+        <section class="about-text">
+          <p>
+            Soy Alan Alfonso Rodríguez Ibarra, Ingeniero en Electrónica con formación avanzada en Desarrollo Web Full Stack. Actualmente me desempeño como freelancer especializado en landing pages y desarrollo de proyectos web, mientras construyo mi propia agencia digital, <strong>BIOR Web Studio</strong> (bior-studio.com).
+          </p>
+          <p>
+            Me apasiona la tecnología, la electrónica, el hardware y el emprendimiento digital. Me motiva enfrentar retos complejos, aprender de forma constante y aplicar el pensamiento lógico y estratégico para crear soluciones web sólidas, funcionales y enfocadas en resultados reales.
+          </p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">Lo que hago</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./src/img/web-dise.svg" alt="ícono diseño web" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Diseño Web (UX/UI)</h4>
+                <p class="service-item-text">
+                  Creación de interfaces intuitivas y atractivas enfocadas en la mejor experiencia para el usuario y la identidad de marca.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./src/img/dev_icon.svg" alt="ícono desarrollo web" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desarrollo Web</h4>
+                <p class="service-item-text">
+                  Desarrollo integral de sitios web modernos, optimizados y escalables utilizando tecnologías de vanguardia.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./src/img/electronica.svg" alt="ícono electrónica" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Electrónica e IoT</h4>
+                <p class="service-item-text">
+                  Diseño de sistemas embebidos y soluciones conectadas mediante hardware especializado para automatización.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./src/img/ajedrez.svg" alt="ícono ajedrez" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Ajedrez</h4>
+                <p class="service-item-text">
+                  En mis tiempos libres juego ajedrez, un deporte mental que fortalece mi pensamiento lógico y estratégico (Nacional 2022).
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clientes</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./src/img/logo_srsaro.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./src/img/logo-sin-fondo-new.webp" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./src/img/logo.png" alt="client logo">
+              </a>
+            </li>
+          </ul>
+
+        </section>
+      </article>
+
+      <article class="resume" data-page="currículum">
+        <header><h2 class="h2 article-title">Currículum</h2></header>
+
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+          <h3 class="h3">Educación</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Máster en Desarrollo Web Full Stack</h4>
+            <span>2024 — Presente</span>
+            <p class="timeline-text">
+              Especialización avanzada en tecnologías modernas de desarrollo web (MERN/PERN stack), arquitectura de software y despliegue de aplicaciones escalables.
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Tecnológico Nacional de México, Campus Apizaco</h4>
+            <span>2020 — 2025</span>
+            <p class="timeline-text">
+              Ingeniería Electrónica - Control y Automatización Industrial. Proyectos destacados: "Power Plant" (Germinación asistida con IoT) y Procesamiento Digital de Imágenes en MATLAB.
+            </p>
+          </li>
+
+        </ol>
+      </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+            <h3 class="h3">Experiencia</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">CEO & Lead Developer - BIOR Web Studio</h4>
+              <span>Presente</span>
+              <p class="timeline-text">Responsable integral del diseño, lógica y estrategia comercial de la agencia. Implementación de soluciones personalizadas con PHP y JS.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Desarrollador Web - SRSARO.COM (E-Commerce)</h4>
+              <span>Octubre 2025 — Noviembre 2025</span>
+              <p class="timeline-text">Lideré la implementación completa de la plataforma usando WordPress y WooCommerce con lógica de negocio personalizada en PHP.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Desarrollador Web - SuEspacio.net</h4>
+              <span>Enero 2025 — Junio 2025</span>
+              <p class="timeline-text">Rediseño de sitios educativos, optimización SEO y trabajo colaborativo en equipos multidisciplinarios.</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">Mis habilidades</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Electrónica / IoT (Arduino, ESP32)</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress & E-Commerce</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Diseño Web (UX/UI)</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Full Stack (JS, Sass, SQL, Django)</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Branding & Estrategia</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Diseño Gráfico Digital</h5>
+                <data value="65">65%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+      <article class="portfolio" data-page="portafolio">
+        <header><h2 class="h2 article-title">Portafolio</h2></header>
+        <section class="projects">
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://alanbior.github.io/header-business-agency/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./src/img/header_business_agency.jpg" alt="Business Agency" loading="lazy">
+                </figure>
+                <h3 class="project-title">BUSINESS AGENCY HEADER</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://alanbior.github.io/creative-agency/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./src/img/creative_company.jpg" alt="Business Agency" loading="lazy">
+                </figure>
+                <h3 class="project-title">Creative Company</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://alanbior.github.io/coworking-space/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./src/img/coworking_space.jpg" alt="Business Agency" loading="lazy">
+                </figure>
+                <h3 class="project-title">Cozy Corner</h3>
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://alanbior.github.io/nft-marketplace/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./src/img/nft_marketplace.jpg" alt="Business Agency" loading="lazy">
+                </figure>
+                <h3 class="project-title">NFT Marketplace</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./src/img/grocery_store.jpg" alt="Business Agency" loading="lazy">
+                </figure>
+                <h3 class="project-title">Grocery Store</h3>
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./src/img/grocery_store.jpg" alt="Business Agency" loading="lazy">
+                </figure>
+                <h3 class="project-title">Borrador</h3>
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+            </ul>
+        </section>
+      </article>
+
+      <article class="contact" data-page="contacto">
+        <header><h2 class="h2 article-title">Contacto</h2></header>
+        <section class="mapbox">
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15045.38531189255!2d-98.1492576!3d19.414704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d0234027780071%3A0xe5f92265008544d0!2sApizaco%2C%20Tlax.!5e0!3m2!1ses!2smx!4v1700000000000" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Formulario de Contacto</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nombre completo" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Correo electrónico" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Tu mensaje" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Enviar mensaje</span>
+            </button>
+          </form>
+        </section>
+      </article>
+
+    </div>
+  </main>
+
+  <script src="./src/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
