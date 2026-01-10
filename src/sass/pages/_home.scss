@@ -23,6 +23,8 @@
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
+  display: flex;
+  align-items: center;
 }
 .service-item::before {
   content: "";
@@ -34,7 +36,7 @@
 }
 .service-icon-box { margin-bottom: 10px; }
 .service-icon-box img { margin: auto; }
-.service-content-box { text-align: center; }
+.service-content-box { text-align: center;}
 .service-item-title { margin-bottom: 7px; }
 .service-item-text {
   color: var(--light-gray);
@@ -55,6 +57,7 @@
   position: relative;
   z-index: 1;
   box-shadow: var(--shadow-2);
+  margin-right: 20px;
   
   &::before {
     content: "";
